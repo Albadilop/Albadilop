@@ -74,6 +74,8 @@
 
 ## 🔍📊 GitHub Stats:
 
+![Snake animation](https://raw.githubusercontent.com/albadilop/albadilop/output/dist/github-contribution-grid-snake.svg)
+
 
 <p>
   <img align="center"
