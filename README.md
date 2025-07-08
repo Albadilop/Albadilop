@@ -18,17 +18,17 @@
 -----
 
 - 🌐 I'm a **Full-Stack Web Developer** recently graduated, passionate about building web applications that are functional and user-friendly.  
-- 🎓 I also have experience as a **teacher** and in **Training, Learning, and Development**, which has strengthened my communication, mentoring, and problem-solving skills.  
-- 💻 I’m currently improving my skills in **Python**, **JavaScript**, **Flask**, and **SQLAlchemy**.  
+- 🎓 I also have experience as a **teacher** and in **Training, Learning, and Development**, which has strengthened my communication, mentoring and problem-solving skills.  
+- 💻 I’m currently improving my skills in **Python**, **JavaScript**, **Flask** and **SQLAlchemy**.  
 - 🤖 I have experience working on **AI training projects**, a field that really intrigues and motivates me.  
 - 🎨 I have a good eye for design and enjoy working on the **front-end** to create engaging user experiences.  
 - 🌿 I love spending time in **nature** and going for walks on the **beach**, which help me stay inspired and balanced.  
-- 🎸 In my free time, I also enjoy **playing guitar**, listening to **music**, and **reading** books that inspire me.  
+- 🎸 In my free time, I also enjoy **playing guitar**, listening to **music** and **reading** books that inspire me.  
 - 📫 Feel free to connect with me on **[LinkedIn](https://www.linkedin.com/in/albadilop)** or email me at **alba.dilop@gmail.com**!
 
 <br>
 
-## 🚀💻 Languages, Technologies & Tools
+## 🛠️💻 Technical Skills & Tools
 #### Front-end
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -60,7 +60,37 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 &nbsp;
 <br>
------
+<br>
+<br>
+
+
+## 🌍🗣️ Languages
+
+- Spanish – Native
+
+- English – Full Professional
+
+<br>
+
+## 🔍📊 GitHub Stats:
+
+
+<p>
+  <img align="center"
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=albadilop&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&layout=compact"
+    alt="albadilop" />
+</p>
+<p>
+  <img align="center"
+    src="https://github-readme-stats.vercel.app/api?username=albadilop&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff"
+    alt="albadilop" />
+</p>
+<p>
+  <img align="center" 
+    src="https://github-readme-streak-stats.herokuapp.com/?user=albadilop&theme=dark&background=0d1117&date_format=M%20j%5B%2C%20Y%5D" 
+    alt="albadilop" />
+</p>
+
 
 <!--FOOTER-->
 <p align="center">⭐ If you like my projects, give them a star and share them with friends!</p>
