@@ -28,13 +28,19 @@ jobs:
 
       - name: Push to output branch
         run: |
-          git switch --orphan output
-          git reset --hard
-          git clean -fdx
-          cp dist/github-contribution-grid-snake.svg .
-          rm -rf dist
-          git add github-contribution-grid-snake.svg
-          git commit -m "Generate snake contribution SVG"
-          git push -f origin output
+            # Copia el SVG a un lugar seguro fuera de dist
+            cp dist/github-contribution-grid-snake.svg ../github-contribution-grid-snake.svg
+
+            # Cambia a la rama orphan output
+            git switch --orphan output
+            git reset --hard
+            git clean -fdx
+
+            # Mueve el archivo copiado a la raíz
+            mv ../github-contribution-grid-snake.svg .
+
+            git add github-contribution-grid-snake.svg
+            git commit -m "Generate snake contribution SVG"
+            git push -f origin output
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
