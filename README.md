@@ -76,7 +76,8 @@
 
 ## 🐍 Snake eating my contributions
 
-![snake gif](https://raw.githubusercontent.com/albadilop/albadilop/output/github-contribution-grid-snake.svg)
+![snake gif](https://raw.githubusercontent.com/albadilop/albadilop/output/dist/github-contribution-grid-snake.svg)
+
 
 <p>
   <img align="center"
