@@ -32,7 +32,8 @@ jobs:
           git switch --orphan output
           git reset --hard
           git clean -fdx
-          mv dist/github-contribution-grid-snake.svg .
+          cp dist/github-contribution-grid-snake.svg .
+          rm -rf dist
           git add github-contribution-grid-snake.svg
           git commit -m "Generate snake contribution SVG"
           git push -f origin output
