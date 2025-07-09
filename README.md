@@ -72,31 +72,47 @@
 
 <br>
 
-## 🔍📊 GitHub Stats:
-🐍 Snake eating my contributions
+## 🔍📊 Profile Stats:
+### 📊 GitHub Profile Summary Card
 
-![snake gif](https://raw.githubusercontent.com/albadilop/albadilop/output/dist/github-contribution-grid-snake.svg)
-
-
-<div align="center">
-<p>
-  <img align="center"
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=albadilop&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&layout=compact"
-    alt="albadilop" />
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=albadilop&theme=github_dark" />
 </p>
+
+### 📊 Most used languages
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=albadilop&theme=github_dark" />
+</p>
+
+### 📊 GitHub Stats
 <p>
   <img align="center"
     src="https://github-readme-stats.vercel.app/api?username=albadilop&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff"
     alt="albadilop" />
 </p>
+
+### 📊 Total Contributions
 <p>
   <img align="center" 
     src="https://github-readme-streak-stats.herokuapp.com/?user=albadilop&theme=dark&background=0d1117&date_format=M%20j%5B%2C%20Y%5D" 
     alt="albadilop" />
 </p>
+<br>
 
-</div>
+## 🏆 GitHub Profile Trophies
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=albadilop&theme=darkhub&no-bg=true&no-frame=true" alt="GitHub Trophies" />
+</p>
+
+<br>
+
+## 🐍 Snake eating my contributions
+
+![snake gif](https://raw.githubusercontent.com/albadilop/albadilop/output/dist/github-contribution-grid-snake.svg)
+
+
+<br>
 <!--FOOTER-->
 <p align="center">⭐ If you like my projects, give them a star and share them with friends!</p>
 <p align="center">Made with ❤️ by Albadilop</p>
