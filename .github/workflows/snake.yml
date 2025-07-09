@@ -34,12 +34,14 @@ jobs:
       # 4. Crear/actualizar la rama output y push forzado
       - name: Push to output branch
         run: |
-          git checkout --orphan output      # crea o resetea la rama output
-          git rm -rf .                      # limpia todos los archivos
-          mkdir -p dist                     # asegura la carpeta dist
-          cp -R dist/* .                    # copia el SVG al root
+          git fetch origin
+          git checkout --orphan output        # crea una rama limpia sin historial
+          git reset --hard                    # asegura que no hay archivos
+          git clean -fdx                      # borra todo lo que haya
+          mkdir -p dist                       # por si acaso
+          cp dist/github-contribution-grid-snake.svg .  # copia el SVG al root
           git add github-contribution-grid-snake.svg
           git commit -m "Update snake contribution graph"
-          git push origin output --force
+          git push origin output --force      # fuerza push solo con ese archivo
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
