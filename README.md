@@ -73,12 +73,12 @@
 <br>
 
 ## 🔍📊 GitHub Stats:
-
-## 🐍 Snake eating my contributions
+🐍 Snake eating my contributions
 
 ![snake gif](https://raw.githubusercontent.com/albadilop/albadilop/output/dist/github-contribution-grid-snake.svg)
 
 
+<div align="center">
 <p>
   <img align="center"
     src="https://github-readme-stats.vercel.app/api/top-langs?username=albadilop&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&layout=compact"
@@ -95,6 +95,7 @@
     alt="albadilop" />
 </p>
 
+</div>
 
 <!--FOOTER-->
 <p align="center">⭐ If you like my projects, give them a star and share them with friends!</p>
