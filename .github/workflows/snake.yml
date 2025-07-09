@@ -2,45 +2,38 @@ name: Generate Snake
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-
-      - name: Generate Snake SVG
-        uses: Platane/snk@v3
-        with:
-          github_user_name: albadilop
-          outputs: |
-            dist/github-contribution-grid-snake.svg
 
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Push to output branch
+      - name: Create and switch to output branch
         run: |
-            # Copia el SVG a un lugar seguro fuera de dist
-            cp dist/github-contribution-grid-snake.svg ../github-contribution-grid-snake.svg
+          git fetch origin output || true
+          git switch output || git switch --orphan output
+          git reset --hard
+          git clean -fdx
 
-            # Cambia a la rama orphan output
-            git switch --orphan output
-            git reset --hard
-            git clean -fdx
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: albadilop
+          outputs: dist/github-contribution-grid-snake.svg
 
-            # Mueve el archivo copiado a la raíz
-            mv ../github-contribution-grid-snake.svg .
-
-            git add github-contribution-grid-snake.svg
-            git commit -m "Generate snake contribution SVG"
-            git push -f origin output
+      - name: Commit and push changes
+        run: |
+          git add dist/github-contribution-grid-snake.svg
+          git commit -m "Update snake contribution SVG" || echo "No changes to commit"
+          git push origin output --force
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
