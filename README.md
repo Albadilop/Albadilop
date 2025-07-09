@@ -75,25 +75,25 @@
 ## 🔍📊 Profile Stats:
 ### 📊 GitHub Profile Summary Card
 
-<p align="center">
+<p>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=albadilop&theme=github_dark" />
 </p>
 
 ### 📊 Most used languages
-<p align="center">
+<p >
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=albadilop&theme=github_dark" />
 </p>
 
 ### 📊 GitHub Stats
 <p>
-  <img align="center"
+  <img
     src="https://github-readme-stats.vercel.app/api?username=albadilop&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff"
     alt="albadilop" />
 </p>
 
 ### 📊 Total Contributions
 <p>
-  <img align="center" 
+  <img 
     src="https://github-readme-streak-stats.herokuapp.com/?user=albadilop&theme=dark&background=0d1117&date_format=M%20j%5B%2C%20Y%5D" 
     alt="albadilop" />
 </p>
@@ -101,7 +101,7 @@
 
 ## 🏆 GitHub Profile Trophies
 
-<p align="center">
+<p>
   <img src="https://github-profile-trophy.vercel.app/?username=albadilop&theme=darkhub&no-bg=true&no-frame=true" alt="GitHub Trophies" />
 </p>
 
