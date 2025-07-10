@@ -98,7 +98,7 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=albadilop&theme=github_dark" />
 </p>
 
-### 📊 Most used languages
+### 📊 Most Used Languages
 <p >
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=albadilop&theme=github_dark" />
 </p>
